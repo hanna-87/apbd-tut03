@@ -6,6 +6,8 @@ namespace APBD_tut03
         static void Main(string[] args)
         {
             Container liquidContainer = new LiquidContainer(true, 12, 600, 2000, 21);
+            //liquidContainer.LoadCargo(1401) - error
+            liquidContainer.LoadCargo(200);
             Container gasContainer = new GasContainer(6, 9, 702, 1600, 30);
             Product product = new Product { ProductType = "Meat", RequiredTemperature = -17 };
             Container refrigeratedContainer = new RefrigeratedContainer(product, -21, 14, 900, 3000, 14);
@@ -23,7 +25,9 @@ namespace APBD_tut03
             ship1.UnloadContainer(liquidContainer.SerialNumber);
             ship1.RemoveContainer(liquidContainer.SerialNumber);
             ship1.PrintShipInfo();
-            
+
+            GasContainer largeContainer = new GasContainer(3, 600, 78000, 80000, 500);
+            //ship1.LoadContainer(largeContainer); - error
             Container newGasContainer = new GasContainer(11, 9, 700, 1500, 25);
             ship1.ReplaceContainer(gasContainer.SerialNumber, newGasContainer);
             ship1.PrintShipInfo();
