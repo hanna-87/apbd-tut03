@@ -7,19 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c31424-4016-4c02-920d-e920221f4f6c" name="Changes" comment="Added property">
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/Container.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/GasContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/IHazardNotifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/LiquidContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/OverfillException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/ProductException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/RefrigeratedContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/Ship.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD-tut03/ShipException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.APBD-tut03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APBD-tut03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD-tut03/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD-tut03/Program.cs" afterDir="false" />
+    <list default="true" id="f1c31424-4016-4c02-920d-e920221f4f6c" name="Changes" comment="APBD-03 task was implemented.">
+      <change beforePath="$PROJECT_DIR$/APBD-tut03/Start.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742688230709</updated>
-      <workItem from="1742688231793" duration="14872000" />
+      <workItem from="1742688231793" duration="15279000" />
     </task>
     <task id="LOCAL-00001" summary="Testing">
       <option name="closed" value="true" />
@@ -102,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742690216806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="APBD-03 task was implemented.">
+      <option name="closed" value="true" />
+      <created>1742738788426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742738788426</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +111,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Testing" />
     <MESSAGE value="Added property" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added property" />
+    <MESSAGE value="APBD-03 task was implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="APBD-03 task was implemented." />
   </component>
 </project>
